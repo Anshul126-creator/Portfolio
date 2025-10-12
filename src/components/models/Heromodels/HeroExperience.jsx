@@ -10,7 +10,7 @@ import HeroLights from './HeroLights.jsx';
   const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
 
   return (
-    <Canvas camera={{position: [1, 10, 0], fov: 5}}>
+    <Canvas camera={{position: [1, 10, 0], fov: 5}} >
 
 <OrbitControls 
 enablePan={false}

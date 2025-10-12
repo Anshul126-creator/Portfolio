@@ -472,3 +472,11 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+
+
+.content-blurred {
+  filter: blur(8px);
+  transition: filter 0.2s ease-out;
+  pointer-events: none;
+  user-select: none;
+}

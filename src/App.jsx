@@ -7,10 +7,12 @@ import FeaturedCards from './sections/FeaturedCards.jsx';
 import ExperienceSection from './sections/ExperienceSection.jsx';
 import TechStack from './sections/TechStack.jsx';
 import Testimonials from './sections/Testimonials.jsx';
-import Contact from './sections/Contact.jsx';
+import Contact from './sections/Contact.jsx'
+import Warning from './Warning.jsx';
 const App = () => {
   return (
     <>
+    <Warning/>
     <Hero/>
     <ShowcaseSection/>
     <NavBar/>
@@ -23,5 +25,7 @@ const App = () => {
     </>
   )
 }
+    
+  
 
 export default App;
